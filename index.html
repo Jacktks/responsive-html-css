@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resposive 1</title>
+
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <!--main.css-->
+    <link rel="stylesheet" href="./main.css">
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+    crossorigin="anonymous"></script>
+    <script>
+        $(function() {
+            $(".toggle").on("click", function() {
+                if ($(".item").hasClass("active")) {
+                    $(".item").removeClass("active");
+                } else {
+                    $(".item").addClass("active");
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <!--nav-->
+    <nav>
+        <ul class="menu">
+            <li class="logo"><a href="#">Web Agency</a></li>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#">About</a></li>
+            <li class="item"><a href="#">Services</a></li>
+            
+            <li class="item button"><a href="#">Log In</a></li>
+            <li class="item button secondary"><a href="#">Sign Up</a></li>
+            <li class="toggle"><span class="bars"></span></li>
+        </ul>
+    </nav>
+
+    <!--Banner-->
+
+    <header id="banner">
+        <div class="banner-title">
+            <h1 class="banner-text">Web Agency</h1>
+            <div class="banner-underline"></div>
+            <div class="banner-btn">
+                <button>
+                    Buy now
+                </button>
+                <button>
+                    About us
+                </button>
+            </div>
+        </div>
+    </header>
+
+
+    <!--Section Skills-->
+
+    <section id="skills">
+        <div class="skills-container">
+            <article class="skills-item">
+                <i class="fa fa-code"></i>
+                <h1>Code</h1>
+                <p>Lorem ipsum dolor sit amet, consecture adpisticutng elit.
+                    ilum cumque, cum,ipsam supsiout duscitio tenutur 
+                </p>
+            </article>
+
+            <article class="skills-item">
+                <i class="fa fa-file-text-o"></i>
+                <h1>Document</h1>
+                <p>Lorem ipsum dolor sit amet, consecture adpisticutng elit.
+                    ilum cumque, cum,ipsam supsiout duscitio tenutur 
+                </p>
+            </article>
+
+            <article class="skills-item">
+                <i class="fa fa-map-o"></i>
+                <h1>Optimized</h1>
+                <p>Lorem ipsum dolor sit amet, consecture adpisticutng elit.
+                    ilum cumque, cum,ipsam supsiout duscitio tenutur 
+                </p>
+            </article>
+
+            <article class="skills-item">
+                <i class="fa fa-desktop"></i>
+                <h1>Retina</h1>
+                <p>Lorem ipsum dolor sit amet, consecture adpisticutng elit.
+                    ilum cumque, cum,ipsam supsiout duscitio tenutur 
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <!--Section Services-->
+
+    <section id="services">
+        <div class="title">
+            <div class="title-text">
+                <h1>Services</h1>
+            </div>
+            <div class="title-underline"></div>
+        </div>
+
+        <div class="services-container">
+            <article class="service-item service-item-black">
+                <div class="front-text">
+                    <i class="fa fa-gears"></i>
+                    <h1>Web Development</h1>
+                </div>
+                <div class="back-text">
+                    <h1>Web Development</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consecture adpisticutng elit.
+                    ilum cumque, cum,ipsam supsiout duscitio tenutur 
+                    </p>
+                    <button type="button">Read more</button>
+                </div>
+            </article>
+
+            <article class="service-item service-item-white">
+                <div class="front-text">
+                    <i class="fa fa-pencil-square-o"></i>
+                    <h1>Design & Branding</h1>
+                </div>
+
+                <div class="back-text">
+                    <h1>Design & Branding</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consecture adpisticutng elit.
+                    ilum cumque, cum,ipsam supsiout duscitio tenutur 
+                    </p>
+                    <button type="button">Read more</button>
+                </div>
+            </article>
+
+            <article class="service-item service-item-black">
+                <div class="front-text">
+                    <i class="fa fa-pie-chart"></i>
+                    <h1>Analytics</h1>
+                </div>
+
+                <div class="back-text">
+                    <h1>Analytics</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consecture adpisticutng elit.
+                    ilum cumque, cum,ipsam supsiout duscitio tenutur 
+                    </p>
+                    <button type="button">Read more</button>
+                </div>
+            </article>
+
+            <article class="service-item service-item-white">
+                <div class="front-text">
+                    <i class="fa fa-line-chart"></i>
+                    <h1>Seo & Smm</h1>
+                </div>
+
+                <div class="back-text">
+                    <h1>Seo & Smm</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consecture adpisticutng elit.
+                    ilum cumque, cum,ipsam supsiout duscitio tenutur 
+                    </p>
+                    <button type="button">Read more</button>
+                </div>
+            </article>
+        </div>
+
+    </section>
+
+
+    
+    <!--Footer-->
+
+    <footer>
+        <div class="main-content">
+            <div class="left box">
+                <h2>About Us</h2>
+                <div class="content">
+                    <p>lorem ipsumdolaqewrloremipsum dolar slorem ipsum dolar</p>
+                    <div class="social">
+                        <a href="#"><i style="color:white;" class="fa fa-facebook-square" aria-hidden="true"></i>
+                        </a>
+                        <a href="#"><i style="color:white;" class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                        <a href="#"><i style="color:white;" class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                        <a href="#"><i style="color:white;" class="fa fa-youtube" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="center box">
+                <h2>Address</h2>
+                <div class="content">
+                    <div class="place">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <span class="text">Da Nang, Viet Nam</span>
+                    </div>
+                    
+                    <div class="phone">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <span class="text">0966588405</span>
+                    </div>
+
+                    <div class="email">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <span class="text">abc@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right box">
+                <h2>Contact Us</h2>
+                <div class="content">
+                    <form action="#">
+                        <div class="email">
+                            <div class="text">Email *</div>
+                            <input type="email" required>
+                        </div>
+                        <div class="msg">
+                            <div class="text">Message *</div>
+                            <textarea name="" id="" cols="25" required rows="2"></textarea>
+                        </div>
+                        <div class="btn">
+                            <button type="submit">
+                                Send
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
